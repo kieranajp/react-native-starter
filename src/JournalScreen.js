@@ -11,7 +11,6 @@ import React, {
 } from 'react-native';
 
 import Slider from 'react-native-slider';
-// import BackgroundImage from './tv_tower.jpg';
 
 const styles = StyleSheet.create({
   screen: {

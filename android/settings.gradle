@@ -1,3 +1,5 @@
 rootProject.name = 'N3xtcoderArya'
 
 include ':app'
+include ':react-native-sensor-manager'
+project(':react-native-sensor-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sensor-manager/android')
