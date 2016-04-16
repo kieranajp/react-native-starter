@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   },
 });
 
-function TabButton(props) {
+export function TabButton(props) {
   let buttonStyle = props.selected ?
     [styles.button, styles.buttonHighlight] :
     styles.button;
